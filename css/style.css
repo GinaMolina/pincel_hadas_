@@ -9,17 +9,15 @@
 /* estilo de texto  */
 
 p{
-    font-family:'Poppins', sans-serif; ;
+    font-family:'Poppins', sans-serif; 
     font-style:normal ;
-    font-weight:bold ;
-    font: size 25px; ;
+    font-weight:bold ; 
     text-align:center ;
     line-height: 40px;
     letter-spacing:5px ;
     word-spacing: 7px;
     text-transform:uppercase ;
     color: rgb(29, 19, 39);
-    border: 5px solid slategrey;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -36,6 +34,10 @@ p{
 h1{ 
     text-align: end;
     background-color: cornsilk;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 20px 50px 20px ;
 }
 
 
@@ -44,18 +46,11 @@ ul{
     list-style-type: none;
 }
 
-/* color a una oracion especifica del texto */
+/* color a una oracion especifica del texto 
 p span{
     text-transform: lowercase;
     color: lightcoral;
-}
-
-/* herencia a h1 y p, padre */
-section{
-    background-color: antiquewhite;
-}
-
-/* cascada */
+}  */
 
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,6 +59,16 @@ h2{
     margin-right: 100px;
     margin-top: 50px;
     margin-left: 100px;
+}
+
+.curados{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(173, 48, 89);
+    padding: 25px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
 }
 
 .prod_{
@@ -90,13 +95,6 @@ header{
     padding: 80px;
 }
 
-h1{
-    color: black;
-    padding: 20px;
-    text-align: center;
-    margin: 50px 20px 50px 20px ;
-    border: 20px solid black;
-}
 
 .mates{
     margin-top: 80px;
@@ -144,26 +142,6 @@ nav ul{
     justify-content: space-around;
 }
 
-/* Grids*/
-
-.grids div{ 
-    width: 100px;
-    height: 100px;
-    background-color: rgb(235, 90, 114);
-    margin: 5px;
-}
-
-.grids{
-    background-color: dimgrey;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 200px 150px;
-    justify-content: center;
-    grid-template-areas: 
-    ". ."
-    ". .";
-}
-
 .subtitulo_{
     margin-bottom: 40px;
 }
@@ -175,21 +153,8 @@ nav ul{
 
 /* Transciones y mas*/
 
-
-.box1{
-    background-color: pink;
-    transition-property: all;
-    transition-duration: 3s;
-}
-
-.box2{
-    background-color: pink;
-    transition-property: all;
-    transition-duration: 3s;
-}
-
-.box:hover{
-    transform: scale(4);
+.movim:hover{
+    scale: 120%;
 }
 
 .circle1, .circle2, .circle3, .circle4, .circle5{
@@ -264,3 +229,49 @@ nav ul{
         transform: translate(100px);
     }
 } 
+
+/* boostrap */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 80%;
+    margin: 120px auto;
+    padding: 30px;
+    box-shadow: 6px 4px 29px -2px rgba(219,216,219,1);
+}
+
+form h4 {
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+form button {
+    margin: 0 auto;
+    padding: 6px 23px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
