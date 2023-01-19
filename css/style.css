@@ -145,6 +145,11 @@ header{
     padding: 50px;
 }
 
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+}
+
 nav ul{
     display: flex;
     flex-direction: column;
@@ -280,6 +285,17 @@ form button {
 }
 
 @media (min-width: 768px){
+    header{
+        padding: 50px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    nav {
+        width: 80%;
+    }
+
     nav ul{
         flex-direction: row;
         justify-content: space-between;
@@ -295,6 +311,7 @@ form button {
         width: 40%;
     }
 }
+
 
 
 
