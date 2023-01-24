@@ -74,6 +74,7 @@ h2{
     margin-right: 100px;
     margin-top: 50px;
     margin-left: 100px;
+    
 }
 
 .curados{
@@ -108,19 +109,6 @@ body{
 header{
     background-color: indianred;
     padding: 80px;
-}
-
-
-.mates{
-    margin-top: 80px;
-    margin-left: 450px;
-    border: 10px double darksalmon;
-    border-radius: 10%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 35px;
 }
 
 .matesitos{
@@ -163,16 +151,16 @@ nav ul{
     justify-content: space-around;
 }
 
+.subtituloh2{
+    text-align: center;
+    margin-left: 100px;
+}
+
 .subtitulo_{
     margin-bottom: 40px;
 }
 
-/* comienzo de mobile first 0-500*/
-
-
-
-
-/* Transciones y mas*/
+/* Transciones y mas
 
 .movim:hover{
     scale: 120%;
@@ -235,7 +223,8 @@ nav ul{
 
 .animaciones:hover{
     animation: cambios 4s;
-}
+} 
+
 @keyframes cambios{
     0%{
         background-color: darkslategrey;
@@ -250,6 +239,7 @@ nav ul{
         transform: translate(100px);
     }
 } 
+*/
 
 /* boostrap */
 
@@ -341,3 +331,4 @@ form button {
     text-decoration: none;
     letter-spacing: 2px;
 }
+/*# sourceMappingURL=estilos.css.map */

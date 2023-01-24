@@ -104,18 +104,6 @@ header {
   padding: 80px;
 }
 
-.mates {
-  margin-top: 80px;
-  margin-left: 450px;
-  border: 10px double darksalmon;
-  border-radius: 10%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 35px;
-}
-
 .matesitos {
   display: flex;
   flex-direction: row;
@@ -153,12 +141,17 @@ nav ul {
   justify-content: space-around;
 }
 
+.subtituloh2{
+  text-align: center;
+  margin-left: 100px;
+}
+
 .subtitulo_ {
   margin-bottom: 40px;
 }
 
-/* comienzo de mobile first 0-500*/
 /* Transciones y mas*/
+/*
 .movim:hover {
   scale: 120%;
 }
@@ -256,6 +249,8 @@ nav ul {
     transform: translate(100px);
   }
 }
+*/
+
 /* boostrap */
 form {
   display: flex;
