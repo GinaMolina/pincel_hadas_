@@ -114,7 +114,7 @@ body{
 
 header{
     @include fontColor;
-    padding: 80px;
+    padding: 50px;
 }
 
 .matesitos{
@@ -134,10 +134,6 @@ footer{
 
 
 /* flexbox */
-
-header{
-    padding: 50px;
-}
 
 .contenedor-logo{
     display: flex;
@@ -166,12 +162,13 @@ nav ul{
     margin-bottom: 40px;
 }
 
-/* Transciones y mas
+/* Transciones y mas*/
 
 .movim:hover{
     scale: 120%;
 }
 
+/*
 .circle1, .circle2, .circle3, .circle4, .circle5{
     border-radius: 50px;
     height: 40px;
