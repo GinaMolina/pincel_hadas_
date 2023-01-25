@@ -1,9 +1,15 @@
+@import "generales";
+@import "index";
 /* Selector:etiqueta html, class id */
 /* propiedad: valor color:red */
 @import url('https://fonts.googleapis.com/css2? family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+
+@mixin fontColor (){
+    color: indianred;
 }
 
 /* estilo de texto  */
@@ -55,7 +61,15 @@ h1{
     margin: 50px 20px 50px 20px ;
 }
 
-
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(173, 48, 89);
+    padding: 30px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
 
 ul{
     list-style-type: none;
@@ -67,15 +81,7 @@ p span{
     color: lightcoral;
 }  */
 
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(173, 48, 89);
-    padding: 30px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-left: 100px;
-    
-}
+
 
 .curados{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -103,11 +109,11 @@ a{
 }
 
 body{
-    background-color: cornsilk
+    background-color: cornsilk;
 }
 
 header{
-    background-color: indianred;
+    @include fontColor;
     padding: 80px;
 }
 
@@ -122,7 +128,7 @@ header{
 footer{
     padding: 80px;
     margin-top: 200px;
-    background-color: indianred;
+    @include fontColor;
     margin-bottom: 0;
 }
 

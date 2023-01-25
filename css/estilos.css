@@ -1,6 +1,36 @@
+@import url("https://fonts.googleapis.com/css2? family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+.main .h1 {
+  text-align: end;
+  background-color: cornsilk;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 50px 20px 50px 20px;
+}
+.main .h1 .h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(173, 48, 89);
+  padding: 30px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.main .h1 .h2 .p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  text-transform: uppercase;
+  color: rgb(29, 19, 39);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
 /* Selector:etiqueta html, class id */
 /* propiedad: valor color:red */
-@import url("https://fonts.googleapis.com/css2? family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -52,15 +82,6 @@ h1 {
   margin: 50px 20px 50px 20px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-/* color a una oracion especifica del texto 
-p span{
-    text-transform: lowercase;
-    color: lightcoral;
-}  */
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(173, 48, 89);
@@ -70,6 +91,15 @@ h2 {
   margin-left: 100px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+/* color a una oracion especifica del texto 
+p span{
+    text-transform: lowercase;
+    color: lightcoral;
+}  */
 .curados {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(173, 48, 89);
@@ -100,7 +130,7 @@ body {
 }
 
 header {
-  background-color: indianred;
+  color: indianred;
   padding: 80px;
 }
 
@@ -114,7 +144,7 @@ header {
 footer {
   padding: 80px;
   margin-top: 200px;
-  background-color: indianred;
+  color: indianred;
   margin-bottom: 0;
 }
 
@@ -141,7 +171,7 @@ nav ul {
   justify-content: space-around;
 }
 
-.subtituloh2{
+.subtituloh2 {
   text-align: center;
   margin-left: 100px;
 }
@@ -150,42 +180,38 @@ nav ul {
   margin-bottom: 40px;
 }
 
-/* Transciones y mas*/
-/*
-.movim:hover {
-  scale: 120%;
+/* Transciones y mas
+
+.movim:hover{
+    scale: 120%;
 }
 
-.circle1, .circle2, .circle3, .circle4, .circle5 {
-  border-radius: 50px;
-  height: 40px;
-  width: 40px;
-  margin: 20px;
+.circle1, .circle2, .circle3, .circle4, .circle5{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
 }
 
-.circle1 {
-  background-color: blue;
-  transition: all 3s ease;
+.circle1{
+    background-color: blue;
+    transition: all 3s ease;
 }
-
-.circle2 {
-  background-color: brown;
-  transition: all 3s ease-in;
+.circle2{ 
+    background-color: brown;
+    transition: all 3s ease-in;
 }
-
-.circle3 {
-  background-color: chartreuse;
-  transition: all 3s ease-in-out;
+.circle3{
+    background-color: chartreuse;
+    transition: all 3s ease-in-out;
 }
-
-.circle4 {
-  background-color: fuchsia;
-  transition: all 3s ease-out;
+.circle4{
+    background-color: fuchsia;
+    transition: all 3s ease-out;
 }
-
-.circle5 {
-  background-color: darkgoldenrod;
-  transition: all 3s st;
+.circle5{
+    background-color: darkgoldenrod;
+    transition: all 3s st;
 }
 
 .container-circle:hover .circle1,
@@ -193,64 +219,47 @@ nav ul {
 .container-circle:hover .circle3,
 .container-circle:hover .circle4,
 .container-circle:hover .circle5 {
-  transform: translateX(300px);
+    transform: translateX(300px);
 }
 
-.combinado {
-  background-color: fuchsia;
-  height: 75px;
-  width: 75px;
-  margin: 60px auto;
-  transition: all 1s;
+.combinado{
+    background-color: fuchsia;
+    height: 75px;
+    width: 75px;
+    margin: 60px auto;
+    transition: all 1s;    
 }
 
-.combinado:hover {
-  transform: rotate(90deg) scale(2) translateX(100px);
+.combinado:hover{
+    transform: rotate(90deg) scale(2) translateX(100px);
 }
 
-.animaciones {
-  width: 100px;
-  height: 100px;
-  margin: 50px auto;
-  background-color: tomato;
+.animaciones{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: tomato;
 }
 
-.animaciones:hover {
-  -webkit-animation: cambios 4s;
-          animation: cambios 4s;
-}
+.animaciones:hover{
+    animation: cambios 4s;
+} 
 
-@-webkit-keyframes cambios {
-  0% {
-    background-color: darkslategrey;
-  }
-  25% {
-    border-radius: 40%;
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  75% {
-    transform: translate(100px);
-  }
-}
-
-@keyframes cambios {
-  0% {
-    background-color: darkslategrey;
-  }
-  25% {
-    border-radius: 40%;
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  75% {
-    transform: translate(100px);
-  }
-}
+@keyframes cambios{
+    0%{
+        background-color: darkslategrey;
+    }
+    25%{
+        border-radius: 40%;
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: translate(100px);
+    }
+} 
 */
-
 /* boostrap */
 form {
   display: flex;
@@ -334,4 +343,6 @@ form button {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map *//*# sourceMappingURL=estilos.css.map */
