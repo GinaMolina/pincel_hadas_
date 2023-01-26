@@ -100,6 +100,21 @@ p span{
     text-transform: lowercase;
     color: lightcoral;
 }  */
+.info-cont {
+  text-align: center;
+  margin: 15px;
+}
+
+.info-cont1 {
+  text-align: center;
+  margin: 15px;
+}
+
+.info-cont2 {
+  text-align: center;
+  margin: 15px;
+}
+
 .curados {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(173, 48, 89);
@@ -130,7 +145,7 @@ body {
 }
 
 header {
-  color: indianred;
+  background-color: indianred;
   padding: 50px;
 }
 
@@ -144,7 +159,7 @@ header {
 footer {
   padding: 80px;
   margin-top: 200px;
-  color: indianred;
+  background-color: indianred;
   margin-bottom: 0;
 }
 
