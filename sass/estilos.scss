@@ -27,15 +27,12 @@ header{
     justify-content: center;
     flex-direction: column;
 }
+
+
 p{
-    font-family:'Poppins', sans-serif; 
-    font-style:normal ;
-    font-weight:bold ; 
-    text-align:center ;
-    line-height: 40px;
-    letter-spacing:5px ;
+    @include properties(center,normal,bold);
     word-spacing: 7px;
-    text-transform:uppercase ;
+    text-transform: uppercase;
     color: rgb(29, 19, 39);
     margin-top: 35px;
     margin-bottom: 35px;
