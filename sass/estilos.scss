@@ -18,7 +18,7 @@ body, header{
 }
 
 header{
-    background-color: indianred;
+    background-color:pink;
     padding: 30px;
 }
 
@@ -49,7 +49,7 @@ p{
 
 .bienvenida{
     text-align: end;
-    background-color: rgba(255, 203, 212, 0.904);
+    background-color: rgb(208, 69, 92);
     color: black;
     padding: 20px;
     text-align: center;
@@ -58,7 +58,7 @@ p{
 
 h1{ 
     text-align: end;
-    background-color: rgba(255, 203, 212, 0.904);
+    background-color: rgb(208, 69, 92);
     color: black;
     padding: 20px;
     text-align: center;
@@ -68,10 +68,11 @@ h1{
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(173, 48, 89);
-    padding: 30px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-left: 100px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
     
 }
 
@@ -125,7 +126,12 @@ a{
     color: rgb(42, 29, 29);
 }
 
-.cualquiera .info-prod1{
+.info-prod h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+.cualquiera .info-prod{
     text-align: center;
 }
 
@@ -134,12 +140,13 @@ a{
 }
 .cualquiera{
     background-color: rgba(255, 255, 255, 0.288);
-    margin-left: 15%;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 .cualquiera .movim{
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
 }
 @media screen and (max-width: 1500px){
     .cualquiera{
@@ -153,8 +160,8 @@ a{
         margin-right: 2%;
     }
     .cualquiera .movim{
-        width: 250px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
     }
 }
 
@@ -162,14 +169,13 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+
 }
 
 footer{
     padding: 80px;
     margin-top: 200px;
-background-color: indianred;
-    margin-bottom: 0;
+    background-color:rgb(208, 69, 92);
 }
 
 
@@ -195,7 +201,7 @@ nav ul{
 
 .subtituloh2{
     text-align: center;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .subtitulo_{
