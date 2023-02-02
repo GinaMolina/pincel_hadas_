@@ -10,7 +10,7 @@
 
 /* estilo de texto  */
 body, header{
-    background-image: url("../img/fondo-nubes.webp");
+    background-image: url("../img/fondo31.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -54,6 +54,7 @@ p{
     padding: 20px;
     text-align: center;
     margin: 50px 20px 50px 20px ;
+    text-shadow: 0 0 2px pink;
 }
 
 h1{ 
@@ -389,6 +390,32 @@ form button {
     letter-spacing: 2px;
 }
 
-    
+/*-------------------------- widget de whatsapp--------------------------*/
+.whatsapp{
+    display: none;
+}
+@media (max-width: 768px) {
+    .whatsapp{
+        display: block;
+        position: fixed;
+        right: 50px;
+        bottom: 20px;
+        z-index: 1;
+        height: auto;
+        background-color: aliceblue;
+        padding: 0px;
+        border-radius: 50% 50% 50% 50%;
+        animation: efecto 2s infinite;
+    }
+    @keyframes efecto{
+        0%{
+            box-shadow: 0 0 0 0 aliceblue;
+        }
+        100%{
+            box-shadow: 0 0 10px 10px black;
+        }
+    } 
+}
+
 
 /*# sourceMappingURL=estilos.css.map */
